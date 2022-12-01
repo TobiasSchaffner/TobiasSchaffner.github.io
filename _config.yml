@@ -38,7 +38,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
@@ -48,20 +47,26 @@ author:
   bio    : ""
   links:
     - label: "E-mail"
-      fa-icon: "fa-envelope-square"
+      fa-icon: "fas fa-fw fa-envelope-square"
       url: "mailto:tobiasschaffner87@outlook.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/TobiasSchaffner/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/tobias-schaffner/"
 
-footer:
-  links:
-    - label: "E-mail"
-      fa-icon: "fa-envelope-square"
-      url: "mailto:tobiasschaffner87@outlook.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+# footer:
+#   links:
+#     - label: "E-mail"
+#       fa-icon: "fas fa-fw fa-envelope-square"
+#       url: "mailto:tobiasschaffner87@outlook.com"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/"
+#     - label: "LinkedIn"
+#       icon: "fab fa-fw fa-linkedin"
+#       url: "https://linkedin.com/in/tobias-schaffner/"
 
 defaults:
   # _posts
